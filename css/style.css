@@ -1,0 +1,204 @@
+/*ESTILO GERAL*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+
+
+body{
+background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+h2.titulo{
+color: #000000;
+font-size: 38px;
+text-align: center;
+}
+h2.titulo span{
+color: #c7a930;
+}
+
+
+.interface{
+max-width: 1280px;
+margin: 0 auto;
+}
+
+.flex{
+display: flex;
+padding: 10px 4% ;
+}
+
+.logo{
+display: flex;
+padding: 10px ;
+
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600px;
+background-color: #FFDE59;
+border: 0;
+border-radius: 30px;
+cursor: pointer;    
+transition: .2s;
+
+}
+
+/*ESTILO DO CABEÇALHO*/
+header{
+padding: 10px 4%;
+}
+
+
+header > .interface{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+header a{
+color: #2c2c2c;
+text-decoration: none;
+display: inline-block;
+transition: .2s;
+}
+
+header a:hover{
+color: #000000;
+transform: scale(1.05);
+
+
+}
+
+
+
+header nav ul{
+list-style-type: none;
+
+
+}
+header nav ul li{
+display: inline-block;
+padding: 0 40px;
+
+}
+
+
+.btn-contato button:hover{
+box-shadow: 0px 0px 8px #9e8009;
+transform: scale(1.05);
+
+
+}
+/*ESTILO DO TOPO DO SITE*/
+section.topo-site{
+padding: 10px 4% ;
+
+
+ }
+section.topo-site .flex{
+align-items: center;
+justify-content: center;
+gap: 90px;
+ }
+main .img-topo{
+    width: 320px;
+    height: auto;
+    border-radius: 20px;
+    }
+
+
+ .topo-site .txt-topo h1{
+color: #000000;
+    font-size: 47px;
+line-height: 50px;
+
+ }
+
+ .topo-site .txt-topo p{
+margin: 35px 0px;
+
+
+ }
+ /*ESTILO DAS ESPECIALIDADES*/
+
+section.especialidades{
+padding: 100px 4%;
+
+
+}
+section.especialidades .flex{
+gap: 60px;
+
+
+}
+
+ .especialidades .especialidades-box{
+    padding: 40px 4%;
+    border-radius: 20px;
+    margin-top: 25px;
+    transition: .2s;
+    }
+    .especialidades .especialidades-box h3{
+font-size: 35px;
+margin: 15px 0;
+
+
+
+
+    }
+    .especialidades .especialidades-box:hover{
+transform: scale(1.05);
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.479);
+
+    }
+
+    /*ESITLO DO SOBRE NÓS*/
+
+section.sobre-nos{
+padding: 50px 4%;
+background-color: #dadada;
+
+    }
+section.sobre-nos .flex{
+align-items: center;
+gap: 60px;
+
+
+
+}
+
+
+.sobre-nos .img-sobre{
+width: 320px;
+height: auto;
+border-radius: 20px;
+}
+
+.sobre-nos .txt-sobre h2{
+font-size: 35px;
+line-height: 40px;
+margin-bottom: 30px;
+
+
+
+}
+.sobre-nos .txt-sobre h2 span{
+color: #c7a930;
+
+
+}
+
+.sobre-nos .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+
+
